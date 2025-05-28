@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Startup Explorer — Discover and Share Ideas
 
-## Getting Started
+A web platform for discovering, sharing, and exploring startup ideas. Users can log in using GitHub OAuth, create their own startup posts using Markdown, and browse submissions from others.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔐 GitHub OAuth Authentication
+Quick and secure sign-in using GitHub accounts. Users can authenticate via NextAuth with a single click, making the onboarding process fast and familiar for developers.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📝 Markdown-Powered Startup Posts
+Startup ideas can be described with rich formatting using Markdown. This allows users to add emphasis, links, lists, and more using a lightweight syntax, rendered beautifully in the UI.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌍 Browse Other Startups
+Explore an open feed of startup ideas submitted by others!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Screenshots
+![YC_1](https://github.com/user-attachments/assets/f3a0ee05-11ae-4092-823d-96978c55cd03)
+![YC_2](https://github.com/user-attachments/assets/639817e4-9bfc-4140-835a-2206f66dcb01)
+![YC_3](https://github.com/user-attachments/assets/b211f8f8-0143-4ed7-9677-f8a394e0d867)
+![YC_4](https://github.com/user-attachments/assets/09686e8c-1c7d-42b6-9d19-ee37efe6e819)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Technologies Used 
+* Next.js 15 – App router, SSR/ISR support
+* NextAuth.js – Authentication with GitHub OAuth
+* Sanity CMS – Headless CMS for managing and storing startup data
+* markdown-it – Custom Markdown rendering
+* Tailwind CSS – Modern utility-first styling
+* Sentry – Error monitoring and performance tracking
