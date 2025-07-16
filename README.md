@@ -2,6 +2,8 @@
 
 A web platform for discovering, sharing, and exploring startup ideas. Users can log in using GitHub OAuth, create their own startup posts using Markdown, and browse submissions from others.
 
+You can find DEMO WEBSITE here: <a href="https://yc-directory-two-sigma.vercel.app/">Yc-Directory<a/>
+
 ## Features
 
 🔐 GitHub OAuth Authentication
